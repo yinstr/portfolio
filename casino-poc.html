@@ -1,0 +1,160 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sida Yin UX/UI/Graphic Designer</title>
+        <meta name="description" content="Sida Yin UX UI and Graphic Designer">
+        <meta name="copyright" content="Sida Yin">
+        <meta name="author" content="Sida Yin">
+        <!--meta name='viewport' content='initial-scale=1, viewport-fit=cover'-->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/project.css">
+        <style>
+            .animated-header{
+                width:100%; 
+                background-image: url('');
+                background-size: cover;
+                border-radius: 0 0 10vw 10vw;
+                position:relative;
+                min-height:60vh;
+                padding-top:var(--spaceunit);
+                overflow:hidden;
+            }
+            #bgimg1, #bgimg2, #logoimg{
+                position:absolute;
+                width:100%;
+                height:100%;
+                left:0;
+                top:0;
+            }
+            #logoimg{
+                height: 80%;
+                top:10%;
+                background-image:url("assets/img/casino-poc/casino-poc-logo.svg");
+                background-size:contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            #bgimg1{
+                background-image: url("assets/img/casino-poc/casino-poc-bg1.jpg");
+                background-size:120% auto;
+                animation: bgfade 20s linear infinite;
+                animation-delay: -10s;
+                background-repeat: no-repeat;
+            }
+            #bgimg2{
+                background-image: url("assets/img/casino-poc/casino-poc-bg2.jpg");
+                background-size:120% auto;
+                animation: bgfade 20s linear infinite;
+                background-repeat: no-repeat;
+            }
+            @media (max-width: 1024px) {
+                #bgimg1,#bgimg2{
+                background-size:auto 100%;
+                }
+
+
+            }
+            
+            @keyframes bgfade {
+                0% {
+                    background-position: 100% bottom;
+                    opacity: 0;
+                }
+                25% {
+                    background-position: 75% bottom;
+                    opacity: 1;
+                }
+                75%{
+                    background-position:25% bottom;
+                    opacity:1;
+                }
+                100% {
+                    background-position: 0% bottom;
+                    opacity: 0;
+                }
+                
+            }
+        </style>
+
+    </head>
+    <body data-aos-easing="ease-out-sine" data-aos-duration="300" data-aos-delay="0">
+        <div class="container top-menu" w3-include-HTML="assets/html/top-menu.html"></div>
+        <div class="container project">
+            <div class="animated-header">
+                <div id="bgimg1"></div>
+                <div id="bgimg2"></div>
+                <div id="logoimg"></div>
+            </div> 
+            <h1 class="max-width-container">A Casino Lobby</h1>
+            <p class="max-width-container">Figma • Prototyping • POC • 2025</p>
+            <p class="max-width-container">
+                For this proof-of-concept, I wanted to explore something beyond traditional online casino lobbies we have today. Even with personalization, a long scroll could make it difficult to find content.
+            </p>
+
+            <div class="max-width-container prototype">
+                <div class="prototype-content" id="prototype-content">
+                    <div class="prototype-buttons" id="buttons-container">
+                        <button class="accessible-button tab active" id="btnA">GIF</button>
+                        <button class="accessible-button tab" id="btnB">Prototype</button>
+                    </div>
+                    <div class="prototype-gif" id="imgA">
+                        <img data-src="assets/img/casino-poc/casino-poc.gif" src="assets/img/casino-poc/casino-poc.gif" alt="casino vertical experiment prototype gif"/>
+                    </div>
+                    <iframe id="imgB" src="https://embed.figma.com/proto/9Ok2bvgLtvaXhISVjm4KLV/Casino-POC?node-id=17-793&scaling=scale-down&content-scaling=responsive&page-id=23743%3A2639&embed-host=share" allowfullscreen></iframe>
+                </div>
+                <div class="prototype-info">
+                    I replaced the typical hero banner and game tile grid with vertically swipable cards. Each card has curated content, starting with a brand logo and signup call to action. Swiping up transitions into a top navigation that blends naturally into the experience rather than changing completely, keeping the flow smooth and seamless.
+                    <br><br>
+                    In Figma I tested how the logo, navigation, and content could move fluidly between cards, helping me refine timing and feel.
+                    <br><br>
+                    I also added a full-screen claim offer with a playful and unconventional "prize wheel".
+                    <br><br>
+                    The card layout makes content easier to consume and gives a clear sense of progress, while keeping interactions engaging and the page visually clean, but may feel clumsy when most people are used to conventional scrolling.
+                </div>
+
+
+
+
+            </div>
+        
+        </div>
+        <div class="container projects" w3-include-HTML="assets/html/projects.html"></div>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/init.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gifler@0.1.0/gifler.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                function isMobileOrTablet() {
+                    return /Mobi|Android|iPad|iPhone/i.test(navigator.userAgent);
+                }
+                if (isMobileOrTablet()) {
+                    $("#buttons-container").hide();
+                    $("#prototype-content").addClass("single");
+                }else{
+                    $("#buttons-container").show();
+                    $("#prototype-content").removeClass("single");
+                }
+                // When Button A is clicked
+                $("#btnA").click(function() {
+                    $("#imgA").show();   // display imgA
+                    $("#imgB").hide();   // hide imgB
+                    $(this).addClass("active");
+                    $("#btnB").removeClass("active");
+                });
+                
+                // When Button B is clicked
+                $("#btnB").click(function() {
+                    $("#imgB").show();   // display imgB
+                    $("#imgA").hide();   // hide imgA
+                    $(this).addClass("active");
+                    $("#btnA").removeClass("active");
+                });
+            });
+        </script>
+    </body>
+</html>

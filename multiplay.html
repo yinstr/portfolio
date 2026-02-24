@@ -1,0 +1,70 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sida Yin UX/UI/Graphic Designer</title>
+        <meta name="description" content="Sida Yin UX UI and Graphic Designer">
+        <meta name="copyright" content="Sida Yin">
+        <meta name="author" content="Sida Yin">
+        <!--meta name='viewport' content='initial-scale=1, viewport-fit=cover'-->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/project.css">
+        <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+            object{
+                width:100%;
+            }
+            .multiplay-teaser-container{
+                overflow:hidden;
+                width:100%; 
+                height: 60vh;
+                position:relative;
+            }
+            .multiplay-teaser-container object.main-img.jackpot-wheel{
+                position: absolute;
+                bottom:0;
+                height:60%;
+                animation: wheel-animation 1s 0s 1 forwards;
+            }
+            
+            #teaser-container{
+                background-color: #FD5C3C;
+            }
+            
+        </style>
+
+    </head>
+    <body data-aos-easing="ease-out-sine" data-aos-duration="300" data-aos-delay="0">
+        <div class="container top-menu" w3-include-HTML="assets/html/top-menu.html"></div>
+        <div class="container project">
+            <div class="multiplay-teaser-container" id="teaser-container">
+                <lottie-player src="assets/img/multiplay/multiplay-teaser.json" background="transparent"  speed=".6"  style="width: 100%; height: 90%; position:absolute; bottom: 0;" loop autoplay></lottie-player>
+            </div>
+            <h1 class="max-width-container">MultiPlay</h1>
+            <p class="max-width-container">LeoVegas • UX/UI • Prototyping • 2020</p>
+            <p class="max-width-container">At LeoVegas, I worked on the MultiPlay feature, which allowed players to open and play more than one game at the same time. LeoVegas was one of the first in the industry to explore this kind of multi-game experience, and it was a fun project to work on. It felt refreshing to dive into something more innovative and help build the MVP.</p>
+            <p class="max-width-container">While the concept was exciting, it didn’t end up delivering much value in terms of player engagement or other key performance indicators. It also required extra effort from our Gaming deparment and QAs to make sure games worked with the feature. With responsible gambling regulations getting stricter, we made the decision not to continue developing the feature since playing multiple games at once posed a potential RG risk.</p>
+            <h3 class="max-width-container">UX/UI</h3>
+            <p class="max-width-container">I was the delivery designer on the project, working closely with a discovery designer throught the process. Together, we explored different ideas, created quick mockups, and tested them with real users to see what worked. My job was to take those ideas and turn them into clear, polished designs that developers could build from.</p>
+            <div class="project-gallery max-width-container">
+                <img class="max-width-container" style="width:100%" data-src="assets/img/multiplay/multiplay-screens-min.png" src="assets/img/multiplay/multiplay-screens-min.png" alt="multiplay content"/>
+            </div>
+               
+            <h3 class="max-width-container">Prototyping</h3>
+            <p class="max-width-container">To help everyone understand how the feature would work, I made both clickable HTML prototypes and short demo videos. These helped the team, including developers, product owners, and others, get a clear picture of the user experience while they were hammering out the techninal aspects around development.</p>
+            <div class="project-gallery max-width-container">
+                <video id="example_video_1" class="video-js vjs-default-skin" style="height:calc(100vw * 176/600); width:auto;" src="assets/img/multiplay/MultiGamePlay.mp4" type='video/mp4' autoplay loop muted/></video>
+            </div>
+        </div>
+        <div class="container projects" w3-include-HTML="assets/html/projects.html"></div>
+
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/init.js"></script>  
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </body>
+</html>

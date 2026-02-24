@@ -1,0 +1,253 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sida Yin UX/UI/Graphic Designer</title>
+        <meta name="description" content="Sida Yin UX UI and Graphic Designer">
+        <meta name="copyright" content="Sida Yin">
+        <meta name="author" content="Sida Yin">
+        <!--meta name='viewport' content='initial-scale=1, viewport-fit=cover'-->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/project.css">
+        <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+            object{
+                width:100%;
+            }
+            .jackpot-win-container{
+                overflow:hidden;
+                width:100%; 
+                height: 400px;
+                position:relative;
+                padding:0 var(--spaceunit);
+            }
+            .jackpot-win-container object.main-img.jackpot-wheel{
+                position: absolute;
+                bottom:0;
+                height:55%;
+                animation: wheel-animation 1s 0s 1 forwards;
+            }
+            .jackpot-animation-container{
+                width:100%;
+                height:100%;
+                background:black !important;
+                overflow: hidden;
+            }
+            #win-container{
+                background-color: var(--pop-black);
+                height:80vh;
+            }
+            #jackpot-wheel2{
+                bottom:0;
+                animation: wheel-animation 1s 0s 1 forwards;
+            }
+            
+            @keyframes wheel-animation{
+                0%{transform:translateY(100%);}
+                100%{transform:translateY(0); animation-timing-function: ease-out;}
+            }
+            .jackpot-win-container object.main-img.jackpot-win{
+                position: absolute;
+                top:-15%;
+                height:110%;
+            }
+            /*jackpot bar*/
+            .bottom{
+                position:relative;
+                justify-content: left;
+                align-items:flex-end;
+                font-family: 'Roboto', sans-serif;
+                width:100%;
+                height:32px;
+                background-color:#000;
+                bottom:0;
+                background: #000;
+                background: linear-gradient(270deg, #f18825, #FD5C3C, #f18825,#FD5C3C,#F58249);
+                background-size: 400% 100%;
+                animation: bottom-gradient-scroll 10s linear infinite;
+            }
+            #jackpot-diamond2{
+                transform-origin: 50% 50%;
+                transform: scale(1.3);
+                background-color: var(--pop-black);
+                width:100%;
+            }
+            object.jackpotlogo{
+                height: 50px;
+                width: 155px;
+                margin: 0px 0 -6px -32px;
+            }
+            @keyframes bottom-gradient-scroll {
+                0%{background-position:100% 0%}
+                100%{background-position:-100% 0%}
+            }
+            @keyframes jackpot-spin{
+                0%{transform: translateY(-10px); opacity:0;}
+                1.5%{transform: translateY(0); opacity:1;}
+                24%{transform: translateY(0); opacity:1;}
+                25.5%{transform: translateY(10px); opacity:0;}
+                100%{transform: translateY(10px); opacity:0;}
+            }
+            .jackpot-sum, .jackpot-type{
+                height: auto;
+                width: auto;
+                font-size: 18px;
+                line-height: 32px;
+                vertical-align: middle;
+                color: #fff;
+                top: 0px;
+                position: absolute;
+                opacity: 0;
+                transition: .5s 1s;
+                animation: jackpot-spin 12s;
+                animation-timing-function: cubic-bezier(.16,-0.52,.56,.24);
+                animation-iteration-count:infinite;
+            }
+            .jackpot-sum{
+                font-weight:bold;
+            }
+            #jackpot-small{
+             animation-delay:3s;
+            }
+            #jackpot-sum-small{
+             animation-delay:3.1s;
+            }
+            #jackpot-medium{
+                animation-delay:6s;
+            }
+            #jackpot-sum-medium{
+                animation-delay:6.1s;
+            }
+            #jackpot-large{
+                animation-delay:9s;
+            }
+            #jackpot-sum-large{
+                animation-delay:9.1s;
+            }
+            #jackpot-mega{
+                animation-delay:0s;
+            }
+            #jackpot-sum-mega{
+                animation-delay:0.1s;
+            }
+            #jackpot-sum-mega{
+                left: 154px;
+            }
+            #jackpot-sum-large{
+                left: 165px;
+            }
+            #jackpot-sum-small{
+                left: 144px;
+            }
+
+            #jackpot-sum-medium{
+                left: 164px;
+            }
+            .jackpot-type{
+                left: 100px;
+            }
+            
+        </style>
+
+    </head>
+    <body data-aos-easing="ease-out-sine" data-aos-duration="300" data-aos-delay="0">
+        <div class="container top-menu" w3-include-HTML="assets/html/top-menu.html"></div>
+        <div class="container project">
+            <div class="jackpot-win-container" id="win-container">
+                <object class="main-img jackpot-wheel" type="image/svg+xml" data="assets/img/leojackpot/wheel-prefixed-min.svg"></object>
+                <object id="win-animation" class="main-img jackpot-win" type="image/svg+xml" data="assets/img/leojackpot/jackpot-win-prefixed-min.svg"></object>
+            </div>
+            <h1 class="max-width-container">LeoJackpot</h1>
+            <p class="max-width-container">LeoVegas • UX/UI • Branding • Animations • 2019</p>
+
+            <h3 class="max-width-container">UX/UI</h3>
+            <p class="max-width-container">
+                LeoJackpot was one of the first projects I worked on at LeoVegas. It was a third party jackpot solution (now in-house) integrated into selected slot games and live casino tables. Players can choose to join the jackpot and add a small extra amount to each wager for a chance to win one of four jackpot levels: Mini, Minor, Major, or Mega. Together with another UX designer, we designed, prototyped, and tested the user flows and interface.
+            </p>            
+            <div class="project-gallery">
+                <img class="max-width-container" data-src="assets/img/leojackpot/leojackpot-flow-min.jpg" src="assets/img/leojackpot/leojackpot-flow-min.jpg" alt="LeoJackpot content"/>
+            </div>
+               
+            <h3 class="max-width-container">Branding and Animations</h3>
+            <p class="max-width-container">
+            The LeoVegas lion is the core of the LeoJackpot brand. I worked on the logo, jackpot wheel, win animations, and jackpot bar, all built as animated SVGs, later implements as Lottie animations for both web and native applications. The visual style was inspired by the classic diamond shaped Las Vegas sign, updated with clean vector outlines. The same visual language carries through the win animations and logo to create a consistent look and feel.
+            </p>
+            <h4 class="max-width-container">LeoJackpot logo</h4>
+            <div class="project-gallery max-width-container" style="height:calc(100vw * 176/600);">
+                <div class="jackpot-animation-container" id="jackpot-logo-holder">
+                    <object id="jackpot-logo" type="image/svg+xml" data="assets/img/leojackpot/jackpot-banner-2-CSS-prefixed.min.svg"></object>
+                </div>
+            </div>
+            <h4 class="max-width-container">LeoJackpot wheel</h4>
+            <div class="project-gallery jackpot-win-container max-width-container">
+                <div class="jackpot-animation-container" id="jackpot-wheel-holder">
+                    <object id="jackpot-wheel2" type="image/svg+xml" data="assets/img/leojackpot/wheel-prefixed-min.svg"></object>
+                </div>
+            </div>
+            <h4 class="max-width-container">LeoJackpot win animation</h4>
+            <div class="project-gallery jackpot-win-container max-width-container">
+                <div class="jackpot-animation-container" id="jackpot-diamond-holder">
+                    <object id="jackpot-diamond2 max-width-container" type="image/svg+xml" data="assets/img/leojackpot/jackpot-win-prefixed-min.svg"></object>
+                </div>
+            </div>
+            <h4 class="max-width-container">LeoJackpot in-game status bar</h4>
+            <div class="project-gallery max-width-container">
+                <div class="bottom">
+                    <object class="jackpotlogo" type="image/svg+xml" data="assets/img/leojackpot/jackpot-banner-2-full-CSS-prefixed.min.svg"></object>
+                    <div class="jackpot-type" id="jackpot-small">MINI</div><div class="jackpot-sum" id="jackpot-sum-small">€14</div>    
+                    <div class="jackpot-type" id="jackpot-medium">MINOR</div><div class="jackpot-sum" id="jackpot-sum-medium">€150</div>    
+                    <div class="jackpot-type" id="jackpot-large">MAJOR</div><div class="jackpot-sum" id="jackpot-sum-large">€32,092</div>    
+                    <div class="jackpot-type" id="jackpot-mega">MEGA</div><div class="jackpot-sum" id="jackpot-sum-mega">€1,129,903</div>    
+                  </div>
+            </div>
+            <h4 class="max-width-container">Game tiles</h4>
+            <div class="project-gallery max-width-container">
+                <img class="max-width-container" data-src="assets/img/leojackpot/jackpot-tiles.min.svg" src="assets/img/leojackpot/jackpot-tiles.min.svg" alt="LeoJackpot content"/>
+            </div>
+        </div>
+        
+        <div class="container projects" w3-include-HTML="assets/html/projects.html"></div>
+
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/init.js"></script>  
+        <script>
+            var animation=document.getElementById("win-animation");
+            var win = document.getElementById("win-container");
+
+            win.removeChild(animation);
+
+            setTimeout(function(){
+                win.appendChild(animation);                
+
+            }, 11500);
+
+
+            var logo=document.getElementById("jackpot-logo");
+            var gallery=document.getElementById("jackpot-logo-holder");
+
+            setInterval(function(){
+                gallery.appendChild(logo);           
+            }, 7000);
+
+            var wheel=document.getElementById("jackpot-wheel2");
+            var wheelholder=document.getElementById("jackpot-wheel-holder");
+
+            setInterval(function(){
+                wheelholder.appendChild(wheel);           
+            }, 15000);
+            
+            var diamond=document.getElementById("jackpot-diamond2");
+            var diamondholder=document.getElementById("jackpot-diamond-holder");
+
+            setInterval(function(){
+                diamondholder.appendChild(diamond);           
+            }, 7000);
+            
+        </script>    
+    </body>
+</html>

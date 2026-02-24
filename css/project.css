@@ -1,0 +1,195 @@
+.container.project{
+    /* margin-top:calc(5*var(--spaceunit)); */
+    flex-direction:row;
+    gap: var(--spaceunit);
+}
+.container.project{
+    padding:0;
+}
+.project h1, .project h2, .project h3, .project h4, .project p{
+    width:100vw;
+    padding: 0 var(--spaceunit);
+    margin:0;
+}
+.project h1{
+    margin:var(--spaceunit) 0 0 0;
+}
+img.main-img{
+    margin-top: 79px;
+    width:100% !important;
+}
+.project-content{
+    margin:var(--spaceunit);
+    position: relative;
+}
+.text-description{
+    width:100%;
+    flex-direction: column;
+}
+.phone-display{
+    width:150px;
+    height: 350px;
+}
+.phone-frame{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.phone-frame.black{
+    background-image:url("../assets/img/phone-frame-black-min.svg");
+}
+.phone-frame.white{
+    background-image:url("../assets/img/phone-frame-white-min.svg");
+}
+.phone-content{
+    position: absolute;
+    top: 8.6%;
+    left: 4.1%;
+    width: 92%;
+    height: 83.1%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    border-radius: 14px;
+}
+.desktop-display{
+    width:600px;
+    height: 325px;
+}
+@media (max-width:539px){
+    .desktop-display{
+        width:calc(100vw - 2*var(--spaceunit));
+        height: calc((100vw - 2*var(--spaceunit))*.5417);
+    }
+}
+.desktop-frame{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-image:url("../assets/img/laptop-min.svg");
+}
+
+.desktop-content{
+    position: absolute;
+    top: 5.5%;
+    left: 14.5%;
+    width: 71.2%;
+    height: 84.5%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+.animated{
+    animation: scroll-site 10s 0s cubic-bezier(.3,0,.7,1) alternate infinite;
+}
+
+/* Content container */
+.prototype .prototype-content {
+    width: calc(50% - var(--spaceunit)/2);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+}
+
+/* Iframe */
+.prototype .prototype-content iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+
+/* GIF image */
+.prototype .prototype-content .prototype-gif {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding:60px 60px 35px 60px;  
+}
+.prototype .prototype-content .prototype-gif img{
+    width:auto;
+    height:calc(100% - 115px);
+}
+.prototype .prototype-content.single{
+    height:auto;
+}
+.prototype .prototype-content.single .prototype-gif{
+    height:auto;
+    padding:0;
+}
+.prototype .prototype-content.single .prototype-gif img{
+    width:calc(50% - var(--spaceunit)/2);
+    height:auto;
+}
+.prototype .prototype-info{
+    width:calc(50% - var(--spaceunit)/2);
+    float: left;
+    flex-direction: row;
+    margin-top: calc(var(--spaceunit)*2);
+}
+
+@keyframes scroll-site{
+    0%{background-position:center 0%;}
+    100%{background-position:center 100%;}
+}
+
+.project-gallery{
+    width:100%;
+    display:flex;
+    position:relative;
+    height:auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: var(--spaceunit);
+    margin-bottom: calc(2*var(--spaceunit));
+    box-sizing: border-box;
+    padding: 0 var(--spaceunit);
+}
+.project-gallery img{
+    width: calc(50% - .5*var(--spaceunit));
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .prototype {
+        flex-direction:column;
+    }
+    .prototype .prototype-content, .prototype .prototype-info{
+        width:100%;
+    }
+    .prototype .prototype-info{
+        margin-top:0;
+    }
+}
+@media (max-width: 768px){
+    .project-gallery img{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    img.main-img{
+        margin-top: 67px;
+    }
+    .prototype .prototype-content.single .prototype-gif{
+        width:auto;
+        flex-direction: column;
+        justify-content: center; /* center horizontally */
+        align-items: center;
+    }
+    .prototype .prototype-content.single .prototype-gif img{
+        max-height: 80vh; /* don't exceed 80% of viewport height */
+        max-width: 100%;  /* don't exceed container width */
+        height: auto;
+        width: auto;
+        display:block;
+    }
+}
+
+

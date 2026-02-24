@@ -1,0 +1,145 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sida Yin UX/UI/Graphic Designer</title>
+        <meta name="description" content="Sida Yin UX UI and Graphic Designer">
+        <meta name="copyright" content="Sida Yin">
+        <meta name="author" content="Sida Yin">
+        <!--meta name='viewport' content='initial-scale=1, viewport-fit=cover'-->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/project.css">
+        <style>
+            .header{
+                width:100%; 
+                background-image: url('assets/img/bonus-poc/bonus-banner-bg.jpg');
+                background-size: cover;
+                background-position: 50% 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 60vh;
+                min-height: 500px;
+                position: relative;
+            }
+            .bannerimg{
+                width: 80%;
+                height:auto;
+                display: block; 
+                position:absolute;
+                bottom:0;
+            }
+            #floating{
+                animation: float 3s ease-in-out infinite;   
+            }
+            @keyframes float{
+                0%{
+                    bottom:0%
+                }
+                50%{
+                    bottom:-5vw;
+                }
+                100%{
+                    bottom: 0%;
+                }
+            }
+             #shadow{
+                transform-origin: 50% 89.5%;
+                animation: scale 3s ease-in-out infinite;   
+            }
+            @keyframes scale{
+                0%{
+                    transform:scale(.7);
+                }
+                50%{
+                    transform:scale(1);
+                }
+                100%{
+                    transform:scale(.7);
+                }
+            }
+            @media (max-width: 1024px){
+                .header{
+                    min-height:0px;
+                    height:calc(40vw + 80px);
+                }
+            }
+        </style>
+
+    </head>
+    <body data-aos-easing="ease-out-sine" data-aos-duration="300" data-aos-delay="0">
+        <div class="container top-menu" w3-include-HTML="assets/html/top-menu.html"></div>
+        <div class="container project">
+            <div class="header">
+                <img class="bannerimg" data-src="assets/img/bonus-poc/bonus-banner static.png" src="assets/img/bonus-poc/bonus-banner static.png" alt="bonus journey experiment prototype"/>
+                <img class="bannerimg" id="shadow" data-src="assets/img/bonus-poc/bonus-banner shadow.png" src="assets/img/bonus-poc/bonus-banner shadow.png" alt="bonus journey experiment prototype"/>
+                <img class="bannerimg" id="floating" data-src="assets/img/bonus-poc/bonus-banner floating.png" src="assets/img/bonus-poc/bonus-banner floating.png" alt="bonus journey experiment prototype"/>
+            </div> 
+            <h1 class="max-width-container">A Bonus Journey</h1>
+            <p class="max-width-container">Figma • Prototyping • POC • 2026</p>
+            <p class="max-width-container">
+                For this prototype, I reimagined the bonus journey by introducing new gamification mechanics and refreshing existing user flows. Static pages are are replaced with interactive cards and modular components to make bonuses and rewards feel playful and engaging. <br> <br> The POC was partially built from an existing design library. All the interactive elements are new, populated with placeholder stock assets. 
+            </p>
+            <div class="max-width-container prototype">
+                <div class="prototype-content" id="prototype-content">
+                    <div class="prototype-buttons" id="buttons-container">
+                        <button class="accessible-button tab active" id="btnA">GIF</button>
+                        <button class="accessible-button tab" id="btnB">Prototype</button>
+                    </div>
+                    <div class="prototype-gif" id="imgA">
+                        <img data-src="assets/img/bonus-poc/bonus-1.gif" src="assets/img/bonus-poc/bonus-1.gif" alt="bonus experiment prototype gif"/>
+                        <img data-src="assets/img/bonus-poc/bonus-2.gif" src="assets/img/bonus-poc/bonus-2.gif" alt="bonus experiment prototype gif"/>
+                    </div>
+                    <iframe id="imgB" src="https://embed.figma.com/proto/V0BxAjlOVOQ1LU47yLodEd/Bonus-3.0-__-Iteration-01?node-id=2765-21569&scaling=scale-down&content-scaling=responsive&page-id=24%3A995&embed-host=share" allowfullscreen></iframe>
+                </div>
+                <div class="prototype-info">
+                    Users can explore different bonus types, gamified assets, and updated navigation without leaving the main flow, creating a sense of discovery and progression. Swiping and micro-interactions guide the user through the experience while keeping interactions clear and focused.
+                    <br><br>
+                    The cashier is integrated seamlessly into the journey, allowing players visualize their or deposit bonus without leaving the flow.
+                    <br><br>
+                    The updated card-based layout highlights key actions and rewards, giving a clear sense of progress, while playful visual cues, micro-animations, and dynamic interactions reinforce the excitement of the experience. While unconventional, this approach aims to make bonus interactions intuitive, engaging, and joyful.
+                </div>
+            </div>
+            <p class="max-width-container" style="padding-bottom: var(--spaceunit);">
+                I worked in Figma with nested transitions, advanced variables and flow logic to support multiple bonus choices, switches, and branching paths. This made it possible to explore interactive scenarios, and adjust micro-interactions, helping even complex gamified flows feel smoother and more intuitive.
+            </p>
+        
+        </div>
+        <div class="container projects" w3-include-HTML="assets/html/projects.html"></div>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/init.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                function isMobileOrTablet() {
+                    return /Mobi|Android|iPad|iPhone/i.test(navigator.userAgent);
+                }
+                if (isMobileOrTablet()) {
+                    $("#buttons-container").hide();
+                    $("#prototype-content").addClass("single");
+                }else{
+                    $("#buttons-container").show();
+                    $("#prototype-content").removeClass("single");
+                }
+                // When Button A is clicked
+                $("#btnA").click(function() {
+                    $("#imgA").show();   // display imgA
+                    $("#imgB").hide();   // hide imgB
+                    $(this).addClass("active");
+                    $("#btnB").removeClass("active");
+                });
+                
+                // When Button B is clicked
+                $("#btnB").click(function() {
+                    $("#imgB").show();   // display imgB
+                    $("#imgA").hide();   // hide imgA
+                    $(this).addClass("active");
+                    $("#btnA").removeClass("active");
+                });
+            });
+        </script>
+    </body>
+</html>

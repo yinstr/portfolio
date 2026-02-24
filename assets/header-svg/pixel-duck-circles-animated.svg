@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="circles" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2916.6 2444.7" style="enable-background:new 0 0 2916.6 2444.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F7931E;stroke-width:20;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F7931E;stroke-width:30;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#F7931E;stroke-width:16;stroke-miterlimit:10;}
+	.st3{fill:#863293;}
+	.st4{fill:none;stroke:#863293;stroke-width:26;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#863293;stroke-width:12;stroke-miterlimit:10;}
+	.st6{fill:#45a3f8;}
+	.st7{fill:none;stroke:#45a3f8;stroke-width:7;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#45a3f8;stroke-width:3;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#FCE600;stroke-width:30;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FCE600;stroke-width:48;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#FCE600;stroke-width:20;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#45a3f8;stroke-width:26;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#45a3f8;stroke-width:12;stroke-miterlimit:10;}
+	
+	@-webkit-keyframes pulse{
+		0%{-webkit-transform: scale(0.9);transform: scale(0.9);opacity:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.96);transform: scale(.96);opacity:1; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(1.04);transform: scale(1.04);opacity:1; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1.1);transform: scale(1.1);opacity:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+	
+	@keyframes pulse{
+		0%{-webkit-transform: scale(0.9);transform: scale(0.9);opacity:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.96);transform: scale(.96);opacity:1; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(1.04);transform: scale(1.04);opacity:1; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1.1);transform: scale(1.1);opacity:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+	#yellow21, #yellow22{
+		opacity:0;
+		-webkit-transform-origin: 32.291% 9.281%;
+		    -ms-transform-origin: 32.291% 9.281%;
+		        transform-origin: 32.291% 9.281%;
+		-webkit-animation: pulse 3s 0s infinite;
+		        animation: pulse 3s 0s infinite;
+	}
+	#yellow22{
+		-webkit-animation-delay:.4s;
+		        animation-delay:.4s;
+	}
+
+	#orange11, #orange12, #orange13{
+		opacity:0;
+		-webkit-transform-origin: 55.242% 25.946%;
+		    -ms-transform-origin: 55.242% 25.946%;
+		        transform-origin: 55.242% 25.946%;
+		-webkit-animation: pulse 4s .1s infinite;
+		        animation: pulse 4s .1s infinite;
+	}
+	#orange12{
+		-webkit-animation-delay:.5s;
+		        animation-delay:.5s;
+	}	
+	#orange13{
+		-webkit-animation-delay:.8s;
+		        animation-delay:.8s;
+	}
+	#yellow11, #yellow12, #yellow13{
+		-webkit-transform-origin: 39.333% 57.087%;
+		    -ms-transform-origin: 39.333% 57.087%;
+		        transform-origin: 39.333% 57.087%;
+		opacity:0;
+		-webkit-animation: pulse 2.5s .2s infinite;
+		        animation: pulse 2.5s .2s infinite;
+	}
+	#yellow12{
+		-webkit-animation-delay:.44s;
+		        animation-delay:.44s;
+	}
+	#yellow13{
+		-webkit-animation-delay:.74s;
+		        animation-delay:.74s;
+	}
+	#blue11, #blue12{
+	 	-webkit-transform-origin: 48.478% 72.271%;
+	 	    -ms-transform-origin: 48.478% 72.271%;
+	 	        transform-origin: 48.478% 72.271%;
+		opacity:0;
+		-webkit-animation: pulse 4s .1s infinite;
+		        animation: pulse 4s .1s infinite;	 
+	}	
+	#blue12{
+		-webkit-animation-delay: .3s;
+		        animation-delay: .3s;
+	}
+	#blue21, #blue22{
+		-webkit-transform-origin: 52.493% 82.849%;
+		    -ms-transform-origin: 52.493% 82.849%;
+		        transform-origin: 52.493% 82.849%;
+		opacity:0;
+		-webkit-animation: pulse 5.5s .3s infinite;
+		        animation: pulse 5.5s .3s infinite;
+	}
+	#blue22{
+		-webkit-animation-delay: .7s;
+		        animation-delay: .7s;
+	}
+</style>
+<g id="orange1">
+	<circle id="orange13" class="st0" cx="1611.2" cy="634.3" r="127.2"/>
+	<circle id="orange12" class="st1" cx="1611.2" cy="634.3" r="203.7"/>
+	<circle id="orange11" class="st2" cx="1611.2" cy="634.3" r="251.4"/>
+</g>
+<g id="yellow2">
+	<circle id="yellow23" class="st3" cx="941.8" cy="226.9" r="109.4"/>
+	<circle id="yellow22" class="st4" cx="941.8" cy="226.9" r="161.7"/>
+	<circle id="yellow21" class="st5" cx="941.8" cy="226.9" r="199.5"/>
+</g>
+<g id="blue2">
+	<circle id="blue23" class="st6" cx="1531" cy="2025.4" r="31.3"/>
+	<circle id="blue22" class="st7" cx="1531" cy="2025.4" r="46.2"/>
+	<circle id="blue21" class="st8" cx="1531" cy="2025.4" r="57.1"/>
+</g>
+<g id="yellow1">
+	<circle id="yellow13" class="st9" cx="1147.2" cy="1395.6" r="200.7"/>
+	<circle id="yellow12" class="st10" cx="1147.2" cy="1395.6" r="321.3"/>
+	<circle id="yellow11" class="st11" cx="1147.2" cy="1395.6" r="396.5"/>
+</g>
+<g id="blue1">
+	<circle id="blue13" class="st6" cx="1413.9" cy="1766.8" r="116.7"/>
+	<circle id="blue12" class="st12" cx="1413.9" cy="1766.8" r="172.6"/>
+	<circle id="blue11" class="st13" cx="1413.9" cy="1766.8" r="213"/>
+</g>
+</svg>

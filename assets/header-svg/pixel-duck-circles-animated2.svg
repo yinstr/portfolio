@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="circles" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2916.6 2444.7" style="enable-background:new 0 0 2916.6 2444.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F7931E;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F7931E;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#F7931E;stroke-miterlimit:10;}
+	.st3{fill:#863293;}
+	.st4{fill:none;stroke:#863293;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#863293;stroke-miterlimit:10;}
+	.st6{fill:#45a3f8;}
+	.st7{fill:none;stroke:#45a3f8;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#45a3f8;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#FCE600;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#FCE600;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#FCE600;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#45a3f8;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#45a3f8;stroke-miterlimit:10;}
+
+	@-webkit-keyframes pulse-large{
+		0%{-webkit-transform: scale(0);transform: scale(0); stroke-width:0;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.3);transform: scale(.3); stroke-width:10; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(.7);transform: scale(.7); stroke-width:60; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1);transform: scale(1); stroke-width:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+
+	@keyframes pulse-large{
+		0%{-webkit-transform: scale(0);transform: scale(0); stroke-width:0;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.3);transform: scale(.3); stroke-width:10; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(.7);transform: scale(.7); stroke-width:60; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1);transform: scale(1); stroke-width:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+
+	@-webkit-keyframes pulse-medium{
+		0%{-webkit-transform: scale(0);transform: scale(0); stroke-width:0;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.3);transform: scale(.3); stroke-width:10; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(.7);transform: scale(.7); stroke-width:30; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1);transform: scale(1); stroke-width:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+
+	@keyframes pulse-medium{
+		0%{-webkit-transform: scale(0);transform: scale(0); stroke-width:0;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.3);transform: scale(.3); stroke-width:10; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(.7);transform: scale(.7); stroke-width:30; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1);transform: scale(1); stroke-width:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+
+	@-webkit-keyframes pulse-small{
+		0%{-webkit-transform: scale(0);transform: scale(0); stroke-width:0;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.3);transform: scale(.3); stroke-width:5; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(.7);transform: scale(.7); stroke-width:10; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1);transform: scale(1); stroke-width:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+
+	@keyframes pulse-small{
+		0%{-webkit-transform: scale(0);transform: scale(0); stroke-width:0;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+		30%{-webkit-transform: scale(.3);transform: scale(.3); stroke-width:5; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		70%{-webkit-transform: scale(.7);transform: scale(.7); stroke-width:10; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+		100%{-webkit-transform: scale(1);transform: scale(1); stroke-width:0; -webkit-animation-timing-function: linear; animation-timing-function: linear;}
+	}
+
+	#purple0, #purple1, #purple2{
+		stroke-width:0;
+		-webkit-transform-origin: 32.291% 9.281%;
+		    -ms-transform-origin: 32.291% 9.281%;
+		        transform-origin: 32.291% 9.281%;
+		-webkit-animation: pulse-medium 11s -8s infinite;
+		        animation: pulse-medium 11s -8s infinite;
+	}
+	#purple1{
+		-webkit-animation-delay:-4s;
+		        animation-delay:-4s;
+	}
+	#purple2{
+		-webkit-animation-delay:-1s;
+		        animation-delay:-1s;
+	}
+
+	#orange11, #orange12, #orange13{
+		stroke-width:0;
+		-webkit-transform-origin: 55.242% 25.946%;
+		    -ms-transform-origin: 55.242% 25.946%;
+		        transform-origin: 55.242% 25.946%;
+		-webkit-animation: pulse-medium 12s -2s infinite;
+		        animation: pulse-medium 12s -2s infinite;
+	}
+	#orange12{
+		-webkit-animation-delay:-6s;
+		        animation-delay:-6s;
+	}	
+	#orange13{
+		-webkit-animation-delay:-8s;
+		        animation-delay:-8s;
+	}
+	#yellow1, #yellow2, #yellow3{
+		-webkit-transform-origin: 39.333% 57.087%;
+		    -ms-transform-origin: 39.333% 57.087%;
+		        transform-origin: 39.333% 57.087%;
+		stroke-width:0;
+		-webkit-animation: pulse-large 10s -3s infinite;
+		        animation: pulse-large 10s -3s infinite;
+	}
+	#yellow2{
+		-webkit-animation-delay:-5s;
+		        animation-delay:-5s;
+	}
+	#yellow3{
+		-webkit-animation-delay:-8s;
+		        animation-delay:-8s;
+	}
+	#blue10, #blue11, #blue12{
+	 	-webkit-transform-origin: 48.478% 72.271%;
+	 	    -ms-transform-origin: 48.478% 72.271%;
+	 	        transform-origin: 48.478% 72.271%;
+		stroke-width:0;
+		-webkit-animation: pulse-medium 14s -4s infinite;
+		        animation: pulse-medium 14s -4s infinite;	 
+	}	
+	#blue11{
+		-webkit-animation-delay: -8s;
+		        animation-delay: -8s;
+	}
+	#blue12{
+		-webkit-animation-delay: -10s;
+		        animation-delay: -10s;
+	}
+	#blue20, #blue21, #blue22{
+		-webkit-transform-origin: 52.493% 82.849%;
+		    -ms-transform-origin: 52.493% 82.849%;
+		        transform-origin: 52.493% 82.849%;
+		stroke-width:0;
+		-webkit-animation: pulse-small 13s -5s infinite;
+		        animation: pulse-small 13s -5s infinite;
+	}
+	#blue20{
+		-webkit-animation-delay: -9s;
+		        animation-delay: -9s;
+	}
+	#blue22{
+		-webkit-animation-delay: -1s;
+		        animation-delay: -1s;
+	}
+</style>
+<g id="orange1">
+	<circle id="orange13" class="st0" cx="1611.2" cy="634.3" r="251"/>
+	<circle id="orange12" class="st1" cx="1611.2" cy="634.3" r="251"/>
+	<circle id="orange11" class="st2" cx="1611.2" cy="634.3" r="251"/>
+</g>
+<g id="purple">
+	<circle id="purple3" class="st3" cx="941.8" cy="226.9" r="109"/>
+	<circle id="purple2" class="st4" cx="941.8" cy="226.9" r="200"/>
+	<circle id="purple1" class="st5" cx="941.8" cy="226.9" r="200"/>
+	<circle id="purple0" class="st5" cx="941.8" cy="226.9" r="200"/>
+</g>
+<g id="blue2">
+	<circle id="blue23" class="st6" cx="1531" cy="2025.4" r="31"/>
+	<circle id="blue22" class="st7" cx="1531" cy="2025.4" r="60"/>
+	<circle id="blue21" class="st8" cx="1531" cy="2025.4" r="60"/>
+	<circle id="blue20" class="st8" cx="1531" cy="2025.4" r="60"/>
+</g>
+<g id="yellow">
+	<circle id="yellow3" class="st9" cx="1147.2" cy="1395.6" r="400"/>
+	<circle id="yellow2" class="st10" cx="1147.2" cy="1395.6" r="400"/>
+	<circle id="yellow1" class="st11" cx="1147.2" cy="1395.6" r="400"/>
+</g>
+<g id="blue1">
+	<circle id="blue13" class="st6" cx="1413.9" cy="1766.8" r="116"/>
+	<circle id="blue12" class="st12" cx="1413.9" cy="1766.8" r="220"/>
+	<circle id="blue11" class="st13" cx="1413.9" cy="1766.8" r="220"/>
+	<circle id="blue10" class="st13" cx="1413.9" cy="1766.8" r="220"/>
+</g>
+</svg>
