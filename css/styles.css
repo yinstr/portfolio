@@ -310,12 +310,11 @@ div{
     justify-content: left;
     padding-left: 350px;
     padding-top: 200px;
-    background-color: var(--acc-purple);
+    /* background-color: var(--acc-purple); */
     background-image: url("../assets/img/intro/profile.svg");
-    /* background-size: 80% 80%; */
     background-position: bottom left;
     background-repeat: no-repeat;
-    color: white;
+    color: var(--acc-purple);
 }
 
 .max-width-container{
