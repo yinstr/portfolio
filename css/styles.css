@@ -179,7 +179,8 @@ h1{
 }
 h2{
     font-size: 1.5rem;
-    padding:calc(.75 * var(--spaceunit));
+    width:100%;
+    /* padding:calc(.75 * var(--spaceunit)); */
 }
 h3{
     font-size: 1.25rem;
