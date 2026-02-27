@@ -304,7 +304,7 @@ div{
     /* justify-content: left;
     align-items: center; */
 }
-.intro-container{
+#intro-container{
     width:100%;
     height: 500px;
     box-sizing: border-box;
@@ -315,9 +315,18 @@ div{
     background-image: url("../assets/img/intro/profile.svg");
     background-position: bottom left;
     background-repeat: no-repeat;
-    color: var(--acc-purple);
+    color: var(--pop-black);
 }
-
+#about{
+    width:100%;
+    height: auto;
+    display:flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--spaceunit);
+}
 .max-width-container{
     box-sizing: border-box;
     max-width:1200px !important;
@@ -488,7 +497,7 @@ a.project-item:focus {
         width: 200%;
         right: -50%;
     }
-    .intro-container{
+    #intro-container{
         height: 100vw;
         padding-top: 60%;
         padding-left: 50%;
@@ -548,7 +557,7 @@ a.project-item:focus {
     a.project-item {
         height: 400px;
     }
-    .intro-container{
+    #intro-container{
       padding-left: 47%;
       padding-top:65%;
     }
